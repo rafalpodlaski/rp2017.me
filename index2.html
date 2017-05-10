@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+<meta name="author" content="RP2k17">
+<!--default language of the document content -->
+<html lang="en">
+<!--CSS linking  -->
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+<!--character encoding for the document (Unicode) -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!--web page title -->
+<title>My Portfolio</title>
+
+</head>
+
+<!--Body / Wrapper -->
+<body>
+
+<!--Header / Intro / Navigation Menu  -->
+    <header class="header">
+    
+<nav class="cf">
+  <ul class="cf">
+    <li>
+      <a href="#">About Me</a>
+    </li>
+    <li>
+      <a href="#">Skill Progress</a>
+    </li>
+    <li>
+      <a href="#">My Projects</a>
+    </li>
+    <li>
+      <a href="#">Contact Me</a>
+    </li>
+  </ul>
+  <a href="#" id="openup">MENU</a>
+</nav>
+   </header>
+
+<!--Wrapper / About  -->
+<div class="wrapper">
+<section class="about">
+<div class="about-content">
+<h3>Welcome to my world</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam lectus vel orci rutrum, vel consequat justo laoreet. Quisque viverra, nunc sed porta laoreet, diam mi finibus erat, ut luctus turpis nunc ut est. Quisque malesuada feugiat risus ac sagittis. Integer auctor tellus at lacus posuere aliquam. Nam ultricies mattis aliquet. Praesent cursus sit amet ex nec dictum. Aliquam dapibus a lorem in gravida. </p>
+</div>
+</section>
+ 
+ <!-- SkillProgres  -->
+<div class="SkillProgress">
+</div>
+
+ <!-- Responsive Image Grid  -->
+<div class="xop-section">
+  <ul class="xop-grid">
+			<li>
+				<div class="xop-box xop-img-1">
+					<a href="https://www.w3schools.com">  <!-- Hyperlink  -->
+					<div class="xop-info">
+					  <h3>Paint</h3>
+
+				  </div></a>
+				</div>
+			</li>
+			<li>
+				<div class="xop-box xop-img-2">
+					<a href="#">
+					<div class="xop-info">
+						<h3>Soap</h3>
+
+				  </div></a>
+				</div>
+			</li>
+			<li>
+				<div class="xop-box xop-img-3">
+					<a href="#">
+					<div class="xop-info">
+						<h3>Flowers</h3>
+
+				  </div></a>
+				</div>
+			</li>
+			
+		</ul>
+</div>
+
+<!--Contact  -->
+<section class="contact">
+<div class="contact-content">
+<form id="Cform" action="/process.php" method="post">
+    <h2>Get in touch</h2>
+    <p>Use the form below to get in touch, or give us a call on xxx-xxx-xxx</p>
+       
+	<!--GoogleMaps-->
+	<div class="google-maps">
+   <iframe src=		"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.747057108428!2d-0.11906667471622563!3d50.84519160986529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x86631f9d4f3230e8!2sBrighton+Students&#39;+Union!5e0!3m2!1sen!2suk!4v1493294724147" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<!--fields-->
+	<div>
+    	<label for="email">Email <span class="required">(required)</span></label>
+    	<input type="email" name="email" placeholder="you@yourdomain.com" required />
+	</div>
+
+	<div>
+    	<label for="url">Website</label>
+    	<input type="url" name="website" placeholder="http://" />
+	</div>
+
+	<div>
+    	<label for="message">Message <span class="required">(required)</span></label>
+    	<textarea name="message" required></textarea>
+	</div>
+
+	<div>
+    	<button type="submit">Send Message</button>
+	</div>
+</form>
+</div>
+</section>
+
+<!--END OF WRAPPER -->
+</div>
+
+<!--Footer -->
+<footer>
+<div class="footer-content">
+<p class="credit">&copy; Copyright 2017 Rafal Podlaski.<br>Designed and Developed by Rafal Podlaski.</p>
+<ul class="social">
+<li><a href="#" target="_blank">twitter.</a></li>
+<li><a href="#" target="_blank">pinterest.</a></li>
+<li><a href="#" target="_blank">youtube.</a></li>
+<li><a href="#" target="_blank">linkedin.</a></li>
+</ul>
+</div>
+</footer>
+<div class="site-cache" id="site-cache"></div>
+<script src="js/navigation.js"></script>
+</body>
+</html>
